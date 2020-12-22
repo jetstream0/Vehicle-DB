@@ -5,3 +5,6 @@ It takes a bit of time to get all the vehicles (A LONG TIME), so I suggest you o
 Thank you government agency for making this cool api. 
 Also, please open an issue if something is broken.
 This project is licensed under the unlicense, which means you can do anything with this code, but I'll be thankful if you credit me.
+
+
+Last Tested on: 12/21/20 (everything seems like it works)
