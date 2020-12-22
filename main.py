@@ -2,7 +2,6 @@
 import requests
 import time, json
 import sys
-from ast import literal_eval
 """this program gets information about vehicles and dumps it into files for further use, made by github.com/jetstream0"""
 
 base_url = "https://vpic.nhtsa.dot.gov/api/vehicles"
@@ -58,7 +57,7 @@ def Type_Search(vtype,filename):
            f.close()
            f = open(filename,"r")
          try:
-           vehicle_dict = literal_eval(f.read())
+           vehicle_dict = json.loads(f.read())
          except SyntaxError:
            vehicle_dict = {}
          f.close()
